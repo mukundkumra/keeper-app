@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# Keeper App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a note-taking app built using React. It allows users to add, view, and delete notes. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Features
+
+- **Create Notes:** Users can create notes by entering text into the input area.
+- **View Notes:** All created notes are displayed on the main page.
+- **Delete Notes:** Users can delete notes they no longer need.
+
+## Technologies Used
+
+- React
+- HTML/CSS
+- JavaScript
+- Material-UI (for styling components)
+
+```bash
+git clone https://github.com/mukundkumra/keeper-app.git
+cd keeper-app
+npm install
+```
 
 ## Available Scripts
 
@@ -39,6 +58,28 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Deployment
+
+### Vercel
+I have deployed this app to vercel, for instructions, check here: [https://create-react-app.dev/docs/deployment/#vercel](https://create-react-app.dev/docs/deployment/#vercel)
+
+### Other Options
+For other options: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+## Demo
+
+![demo](img/demo.gif)
+
+You can see a live demo of the Keeper App [here](https://mukundkumra-keeper.vercel.app/).
+
+## Acknowledgments
+- Inspired by Google Keep.
+- Special thanks to the creators and contributors of React, Material-UI, and other libraries used in this project.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -60,10 +101,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
